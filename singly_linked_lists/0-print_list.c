@@ -12,13 +12,13 @@ size_t print_list(const list_t *h)
 {
     
     list_t *scanptr;
-    *scanptr = *h;
+    scanptr = *h;
 
     int count = 1;
 
     while (scanptr != NULL)
     {
-        
+
     }
 
 }
