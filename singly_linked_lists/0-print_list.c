@@ -11,15 +11,14 @@
 size_t print_list(const list_t *h)
 {
     
-    list_t *scanptr;
-    scanptr = h;
 
-    int count = 1;
 
-    while (scanptr != NULL)
+    size_t count = 1;
+
+    while (h != NULL)
     {
         printf();
-        scanptr = scanptr->next;
+        h = h->next;
         count++;
     }
     return (count);
