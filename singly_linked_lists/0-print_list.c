@@ -18,7 +18,7 @@ size_t print_list(const list_t *h)
 
     while (scanptr != NULL)
     {
-        printf(scanptr);
+        printf(*scanptr);
         scanptr = scanptr->next;
         count++;
     }
