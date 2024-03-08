@@ -16,7 +16,7 @@ size_t print_list(const list_t *h)
 
     int count = 1;
 
-    if (scanptr != NULL)
+    while (scanptr != NULL)
     {
         printf(scanptr);
         scanptr = scanptr->next;
