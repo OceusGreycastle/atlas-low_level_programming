@@ -6,7 +6,7 @@
  * list_len - returns element count from a list
  * @h: name of sizt_t list
  *
- * Return - Number of Nodes
+ * Return: Number of Nodes
 */
 
 size_t list_len(const list_t *h)
