@@ -3,9 +3,10 @@
 #include "lists.h"
 
 /**
+ * print_list - prints the elements in the list
+ * @h: name of size_t list
  *
- *
- *
+ * Return: Number Of Nodes
 */
 
 size_t print_list(const list_t *h)
