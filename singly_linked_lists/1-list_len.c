@@ -3,10 +3,10 @@
 #include "lists.h"
 
 /**
- * list_len -
- * @h:
+ * list_len - returns element count from a list
+ * @h: name of sizt_t list
  *
- * Return -
+ * Return - Number of Nodes
 */
 
 size_t list_len(const list_t *h)
