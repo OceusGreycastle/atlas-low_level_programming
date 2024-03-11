@@ -34,6 +34,6 @@ list_t *add_node(list_t **head, const char *str)
 
 	*head = nugget;
 
-	return (list_t);
+	return (nugget);
 
 }
