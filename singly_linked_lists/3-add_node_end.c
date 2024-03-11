@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
+#include <string.h>
 #include "lists.h"
 
 /**
@@ -12,5 +13,8 @@
 
 list_t *add_node_end(list_t **head, const char *str)
 {
+    list_t nugget;
+    list_t temp_nugget;
+
     
 }
