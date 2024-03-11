@@ -5,9 +5,11 @@
 #include "strlen.c"
 
 /**
+ * add_node - adds a node to the head
+ * @head: Pointer to the head of the list
+ * @str: String to be inserted
  *
- *
- *
+ * Return: Always
 */
 
 list_t *add_node(list_t **head, const char *str)
