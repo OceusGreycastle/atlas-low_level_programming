@@ -3,32 +3,34 @@
 #include "lists.h"
 
 /**
- * 
- * 
- * 
+ *
+ *
+ *
 */
 
 list_t *add_node(list_t **head, const char *str)
 {
-    if (head == NULL)
-    {
-        return (NULL);
-    }
+	if (head == NULL)
+	{
+		return (NULL);
+	}
 
-    list_t *nugget = NULL;
+	list_t *nugget = NULL;
 
-    nugget = malloc(sizeof(list_t));
+	nugget = malloc(sizeof(list_t));
 
-    if (nugget == NULL)
-    {
-        return (NULL);
-    }
-    
-    nugget->next = *head;
+	if (nugget == NULL)
+	{
+		return (NULL);
+	}
 
-    *head = nugget;
+	strdup(str) = *nugget;
 
-    return (list_t);
+	nugget->next = *head;
+
+	*head = nugget;
+
+	return (list_t);
 
 
 
