@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 #include "lists.h"
+#include "strlen.c"
 
 /**
  * add_node_end - adds a node to the end of a list.
@@ -29,6 +30,9 @@ list_t *add_node_end(list_t **head, const char *str)
         return (NULL);
     }
     
+    nugget->str = strdup(str);
+
+    nugget->len = _strlen(str);
 
 
 }
