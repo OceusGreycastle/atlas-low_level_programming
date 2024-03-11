@@ -30,6 +30,8 @@ list_t *add_node(list_t **head, const char *str)
 
 	nugget->str = strdup(str);
 
+	nugget->len = strlen(str);
+
 	nugget->next = *head;
 
 	*head = nugget;
