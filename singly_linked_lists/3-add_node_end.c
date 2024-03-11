@@ -21,7 +21,7 @@ list_t *add_node_end(list_t **head, const char *str)
 
     nugget = malloc(sizeof(list_t));
 
-    if (*head == NULL)
+    if (head == NULL)
     {
         return (NULL);
     }
@@ -33,6 +33,10 @@ list_t *add_node_end(list_t **head, const char *str)
     nugget->str = strdup(str);
 
     nugget->len = _strlen(str);
+
+    nugget->next = NULL;
+
+
 
 
 }
