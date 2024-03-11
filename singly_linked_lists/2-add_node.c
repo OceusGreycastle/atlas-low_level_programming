@@ -18,7 +18,7 @@ list_t *add_node(list_t **head, const char *str)
 		return (NULL);
 	}
 
-	*nugget = NULL;
+	nugget = NULL;
 
 	nugget = malloc(sizeof(list_t));
 
