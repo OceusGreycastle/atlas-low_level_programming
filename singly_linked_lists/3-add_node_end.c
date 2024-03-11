@@ -13,8 +13,22 @@
 
 list_t *add_node_end(list_t **head, const char *str)
 {
-    list_t nugget;
-    list_t temp_nugget;
+    list_t *nugget;
+    list_t *temp_nugget;
 
+    nugget = NULL;
+
+    nugget = malloc(sizeof(list_t));
+
+    if (*head == NULL)
+    {
+        return (NULL);
+    }
+    if (nugget == NULL)
+    {
+        return (NULL);
+    }
     
+
+
 }
