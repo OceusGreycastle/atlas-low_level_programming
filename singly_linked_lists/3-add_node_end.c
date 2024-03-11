@@ -36,7 +36,20 @@ list_t *add_node_end(list_t **head, const char *str)
 
     nugget->next = NULL;
 
+    if (*head == NULL)
+    {
+        *head = nugget;
+    }
+    else
+    {
+        temp_nugget = *head;
 
-
+        while (temp_nugget->next != NULL)
+        {
+            temp_nugget= temp_nugget->next;
+        }
+        temp_nugget->next = nugget;
+    }
+    return (nugget);
 
 }
