@@ -4,7 +4,7 @@
 
 /**
  * add_node_end - adds a node to the end of a list.
- * @head: head of list
+ * @head: pointer to the head of list
  * @str: string to be copied
  * 
  * Return: Always
