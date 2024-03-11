@@ -23,12 +23,14 @@ list_t *add_node(list_t **head, const char *str)
     {
         return (NULL);
     }
+
+    list_t *nugget = strdup(*head);
     
     nugget->next = *head;
 
     *head = nugget;
 
-    return (&nugget);
+    return (list_t);
 
 
 
