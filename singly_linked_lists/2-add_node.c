@@ -24,6 +24,11 @@ list_t *add_node(list_t **head, const char *str)
         return (NULL);
     }
     
+    nugget->next = *head;
+
+    *head = nugget;
+
+    return (&nugget);
 
 
 
