@@ -8,7 +8,7 @@
  * 
 */
 
-size_t dlistint_len(const dlistint_t *h)
+int sum_dlistint(dlistint_t *head)
 {
     
 }
